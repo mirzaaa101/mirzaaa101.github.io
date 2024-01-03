@@ -13,29 +13,10 @@
       font-weight: bolder;
       margin-right: 40px;
     }
-
-    #biography {
-      margin-top: 30px;
-      max-width: 1540px;
-      max-height: auto;
-      border: none;
+    .card{
+        margin: 20px 0 0 20px;
+        border: none;
     }
-
-    #profile {
-      height: 250px;
-      width: 250px;
-      margin: 0 0 0 50px;
-    }
-
-    #interests {
-      margin: 10px 10px 10px 50px;
-    }
-
-    .card-body {
-      border: none;
-      background-color: transparent;
-    }
-
     #links {
       clear: both;
       height: 60px;
@@ -47,13 +28,13 @@
       margin: 10px 20px 10px 20px;
     }
   </style>
-  <title>Mirza Abbas Uddin</title>
+  <title>Academic Information</title>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg bg-body-light" style="margin-top: 15px;">
     <div class="container">
-      <p class="fs-4 fw-bold fst-italic">Mirza Abbas Uddin</p>
+      <p class="fs-4 fw-bold fst-italic" style="margin-top: 30px;">Mirza Abbas Uddin</p>
       <div class="collapse navbar-collapse me-5" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-10 mb-lg-0">
           <li class="nav-item">
@@ -77,59 +58,33 @@
   </nav>
 
   <div class="container">
-    <div class="card mb-2" id="biography">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="Figures/me.png" class="img-fluid rounded-start" alt="..." id="profile">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <p class="card-text fw-normal">
-              Greeting, I'm Mirza, an undergraduate student pursuing a Bachelor's in Computer Science and Engineering
-              (BSCSE) at United International University (UIU). As an aspiring professional in the world of technology,
-              I am dedicated to expanding my knowledge and skills in the dynamic field of computer science. <br><br>
-              I'm passionate about Machine Learing, Data Science and all things related to it. I love diving into data,
-              extracting valuable insights, and creating data-driven solutions to real-world problems. If you share this
-              passion or have an exciting Data Science project in mind, I'd love to collaborate with you! <br><br><br>
-              <center><strong>What drives me? My skills and interests, right here!</strong></center>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="interests">
-      <div class="card text-white bg-success mb-3"
-        style="max-width: 18rem;height: 10rem;float: left;margin-right: 20px;">
-        <div class="card-header">Natural Language Processing (NLP)</div>
+    <center>
+        <p class="fw-bolder fs-4">Academic Information</p>
+    </center>
+      <div class="card">
         <div class="card-body">
-          <p class="card-text">Passionate about understanding and generating human language. Familiar with NLTK, SpaCy,
-            and Transformers (Hugging Face).</p>
+          <a href="https://www.uiu.ac.bd/" target="_blank" class="card-title">United International University (UIU)</a>
+          <p class="card-text">Bachelor of Science in Computer Science and Engineering (BSCSE)</p>
+          <p class="card-text"><small class="text-muted">2020-2024</small></p>
         </div>
       </div>
-      <div class="card text-white bg-success mb-3"
-        style="max-width: 18rem;height: 10rem;float: left;margin-right: 20px;" id="skill-card">
-        <div class="card-header">Machine Learning(ML)</div>
+      <hr>
+      <div class="card">
         <div class="card-body">
-          <p class="card-text">Experienced with libraries like scikit-learn, TensorFlow, Keras, and PyTorch.</p>
+          <a href="https://imperialcollege.edu.bd/" target="_blank" class="card-title">Dhaka Imperial College</a>
+          <p class="card-text">Higher Secondary Certificate (HSC) || Science</p>
+          <p class="card-text"><small class="text-muted">2017-2019</small></p>
         </div>
       </div>
-      <div class="card text-white bg-success mb-3"
-        style="max-width: 18rem; height: 10rem; float: left;margin-right: 20px;">
-        <div class="card-header">Data Analysis</div>
+      <hr>
+      <div class="card">
         <div class="card-body">
-          <p class="card-text">Expertise in NumPy, pandas, Matplotlib, and Seaborn for effective data exploration and
-            visualization.</p>
+          <a href="https://www.barisalboard.gov.bd/102477" target="_blank" class="card-title">Patuakhali Govt. Jubilee High School</a>
+          <p class="card-text">Secondary School Certificate (SSC) || Science</p>
+          <p class="card-text"><small class="text-muted">2013-2017</small></p>
         </div>
       </div>
-      <div class="card text-white bg-success mb-3"
-        style="max-width: 18rem;height: 10rem;float:left;margin-right: 20px;">
-        <div class="card-header">Web Developement</div>
-        <div class="card-body">
-          <p class="card-text">Proficient in Django, Bootstrap, and JavaScript.</p>
-        </div>
-      </div>
-    </div>
-    <hr style="clear: both;">
+      <hr>
   </div>
   <!-- Footer -->
   <footer>
