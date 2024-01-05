@@ -1,0 +1,70 @@
+@import url("fonts.css");
+@import url("font-awesome/css/font-awesome.min.css");
+@import url("micons/micons.css");
+
+
+@media only screen and (max-width:1024px) {
+	html {
+		font-size: 9.411764705882353px;
+	}
+}
+@media only screen and (max-width:768px) {
+	html {
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width:400px) {
+	html {
+		font-size: 9px;
+	}
+}
+@media only screen and (max-width:600px) {
+	h1, .h01 {
+		font-size: 2.6rem;
+		letter-spacing: -.07rem;
+	}
+}
+html, body {
+	height: 100%;
+}
+
+
+
+.nav-item {
+    font-weight: bolder;
+    margin-right: 40px;
+    color: black;
+  }
+
+  #biography {
+    margin-top: 30px;
+    max-width: 1540px;
+    max-height: auto;
+    border: none;
+  }
+
+  #profile {
+    height: 250px;
+    width: 250px;
+    margin: 0 0 0 50px;
+  }
+
+  #interests {
+    margin: 10px 10px 10px 50px;
+  }
+
+  .card-body {
+    border: none;
+    background-color: transparent;
+  }
+
+  #links {
+    clear: both;
+    height: 60px;
+    width: 800px;
+    margin: 20px 0 0 30%;
+  }
+
+  #links .btn {
+    margin: 10px 20px 10px 20px;
+  }

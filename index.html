@@ -3,53 +3,14 @@
 
 <head>
   <meta charset="utf-8">
+  <title>Mirza Abbas Uddin</title>
   <meta name="description" content="">
 	<meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="icon" href="Figures/me.png">
-  <style>
-    .nav-link {
-      color: black;
-      font-weight: bolder;
-      margin-right: 40px;
-    }
-
-    #biography {
-      margin-top: 30px;
-      max-width: 1540px;
-      max-height: auto;
-      border: none;
-    }
-
-    #profile {
-      height: 250px;
-      width: 250px;
-      margin: 0 0 0 50px;
-    }
-
-    #interests {
-      margin: 10px 10px 10px 50px;
-    }
-
-    .card-body {
-      border: none;
-      background-color: transparent;
-    }
-
-    #links {
-      clear: both;
-      height: 60px;
-      width: 800px;
-      margin: 20px 0 0 30%;
-    }
-
-    #links .btn {
-      margin: 10px 20px 10px 20px;
-    }
-  </style>
-  <title>Mirza Abbas Uddin</title>
 </head>
 
 <body>
@@ -154,15 +115,7 @@
     <center>
       <p class="fst-italic fs-6" id="currentYear"></p>
     </center>
-    <script>
-      function showPhoneNumber() {
-        let phone = document.getElementById("phone");
-        phone.innerHTML = "+88 016 407 20014"
-        phone.style.backgroundColor = "white";
-        phone.style.color = "black";
-      }
-      document.getElementById("currentYear").innerText = "\u00A9 Mirza Abbas Uddin 2023-" + new Date().getFullYear();
-    </script>
+    <script src="script.js"></script>
   </footer>
 </body>
 
