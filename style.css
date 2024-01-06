@@ -45,7 +45,13 @@
   border: none;
   background-color: transparent;
 }
-
+.interests{
+  border-radius: 20px;
+  transition: box-shadow 0.3s, background-color 0.3s;
+}
+.interests:hover {
+  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.919);
+}
 .interests.card-header {
   font-size: 10px;
 }
@@ -65,43 +71,37 @@ hr{
   height: 2px;
 }
 
-@media (min-width: 576px) {
-  body {
-    font-size: 18px;
-  }
 
-  #biography {
-    padding: 30px;
+@media (max-width: 576px) {
+  .dropdown{
+    margin-right: 100px;
   }
-
-  .interests {
-    margin-bottom: 20px;
+  p{
+    font-size: 20px;
   }
-  .navbar {
-    padding: 20px;
+  .card-title,.card-text{
+    font-size: 12px;
   }
-
-  .fs-4 {
-    margin-top: 20px;
+  .fs-4{
+    font-size: 14px;
   }
-
-  .card {
-    margin: 20px 0;
+  .interests{
+    margin-left: 25%;
+    height: 150px;
+    width: 450px;
   }
-  .navbar {
-    padding: 20px; /* Adjust padding for the navbar on larger screens */
+  .interests.card-header {
+    font-size: 10px;
   }
-
-  .fs-4 {
-    margin-top: 20px; /* Adjust margin-top for fs-4 class on larger screens */
+  #profile {
+    height: 100px;
+    width: 100px;
+    margin: 0 0 0 40%;
   }
-
-  .pdf-section {
-    width: 80%; /* Adjust width for the PDF section on larger screens */
-    margin: 0 auto; /* Center the PDF section */
+  #links{
+    margin-left: 23%;
   }
-
-  .btn-primary {
-    font-size: 1.5rem; /* Adjust font size for the primary button on larger screens */
+  #pdf-show{
+    height: 0vh;
   }
 }
