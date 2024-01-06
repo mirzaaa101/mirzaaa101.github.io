@@ -122,7 +122,9 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"></script>
     <center>
-      <p class="fst-italic fs-6" id="currentYear"></p>
+      <p class="fst-italic fs-6" id="currentYear">
+        <script>document.getElementById("currentYear").innerText = "\u00A9 Mirza Abbas Uddin 2023-" + new Date().getFullYear();</script>
+      </p>
     </center>
     <script src="script.js"></script>
   </footer>

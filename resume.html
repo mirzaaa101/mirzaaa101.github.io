@@ -63,12 +63,12 @@
         </div>
   </center>
    <!-- Footer -->
-   <footer>
+  <footer>
     <div id="links">
-      <a href="mailto:mirzaabbasuddin2@gmail.com" target="_blank" class="btn btn-white"><i class="fa-regular fa-envelope"></i></a>
-      <a href="https://www.linkedin.com/in/mirzaaa101" target="_blank" class="btn btn-white"><i class="fa-brands fa-linkedin-in"></i></a>
-      <a href="https://github.com/mirzaaa101" target="_blank" class="btn btn-white"><i class="fa-brands fa-github"></i></a>
-      <a href="https://wa.me/01640720014" target="_blank" class="btn btn-white"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="mailto:mirzaabbasuddin2@gmail.com" target="_blank" class="btn btn-white" title="Email"><i class="fa-regular fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/mirzaaa101" target="_blank" class="btn btn-white" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://github.com/mirzaaa101" target="_blank" class="btn btn-white" title="Github"><i class="fa-brands fa-github"></i></a>
+      <a href="https://wa.me/01640720014" target="_blank" class="btn btn-white" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
       <a href="#" class="btn btn-white" onmouseover="showPhoneNumber();" id="phone"><i class="fa-solid fa-phone"></i></a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -81,10 +81,11 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"></script>
     <center>
-      <p class="fst-italic fs-6" id="currentYear"></p>
+      <p class="fst-italic fs-6" id="currentYear">
+        <script>document.getElementById("currentYear").innerText = "\u00A9 Mirza Abbas Uddin 2023-" + new Date().getFullYear();</script>
+      </p>
     </center>
-    <script src="script.js"></script>
   </footer>
 </body>
-
+<script src="script.js"></script>
 </html>

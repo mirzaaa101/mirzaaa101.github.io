@@ -28,4 +28,3 @@ function showPhoneNumber() {
     phone.style.backgroundColor = "white";
     phone.style.color = "black";
   }
-  document.getElementById("currentYear").innerText = "\u00A9 Mirza Abbas Uddin 2023-" + new Date().getFullYear();
