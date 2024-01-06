@@ -74,7 +74,7 @@ hr{
 
 @media (max-width: 576px) {
   .dropdown{
-    margin-right: 100px;
+    margin-right: 80px;
   }
   p{
     font-size: 20px;
@@ -99,7 +99,7 @@ hr{
     margin: 0 0 0 40%;
   }
   #links{
-    margin-left: 23%;
+    margin-left: 18%;
   }
   #pdf-show{
     height: 0vh;
