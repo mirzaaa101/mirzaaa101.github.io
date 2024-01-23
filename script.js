@@ -28,3 +28,17 @@ function showPhoneNumber() {
     phone.style.backgroundColor = "white";
     phone.style.color = "black";
   }
+
+  function showZoomedImage(imageSrc) {
+    var modal = document.createElement('div');
+    modal.style.border = "50% solid #ffffff";
+    modal.classList.add('zoom-modal');
+    var zoomedImage = document.createElement('img');
+    zoomedImage.src = imageSrc;
+    zoomedImage.classList.add('zoomed-image');
+    modal.appendChild(zoomedImage);
+    document.body.appendChild(modal);
+    modal.onclick = function () {
+      document.body.removeChild(modal);
+    };
+  }
