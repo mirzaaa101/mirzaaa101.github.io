@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .navbar{
   margin-top: 15px;
 }
@@ -15,6 +19,7 @@
   max-width: 1540px;
   max-height: auto;
   border: none;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #profile {
@@ -25,15 +30,23 @@
 
 #interests-card {
   margin: 10px 10px 10px 10px;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
-
+#card-header{
+  font-weight: bold;
+}
 .interests {
   max-width: 18rem;
   height: 10rem;
   float: left;
   margin: 0 20px 10px 10px;
-  color: white;
-  background-color: #198754;
+  font-size: 15px;
+  /* color: white;
+  background-color: #198754; */
+  color: black;
+  background-color: #cee2df;
 }
 .card-academic{
   border: none;
@@ -55,12 +68,13 @@
 .interests.card-header {
   font-size: 10px;
 }
-
 #links {
   clear: both;
   height: 60px;
   width: 600px;
   margin: 0 0 0 40%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
 }
 
 #links .btn {
@@ -92,30 +106,36 @@ hr{
 
 
 @media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
   .dropdown{
-    margin-right: 80px;
+    margin-right: 10px;
   }
   p{
     font-size: 20px;
   }
   .card-title,.card-text{
-    font-size: 12px;
+    font-size: 11px;
   }
   .fs-4{
     font-size: 14px;
   }
   .interests{
-    margin-left: 25%;
+    margin-left: 11%;
     height: 150px;
     width: 450px;
+    color: black;
+    background-color: #cee2df;
   }
   .interests.card-header {
     font-size: 10px;
+    margin-right: 2px;
   }
   #profile {
     height: 100px;
     width: 100px;
-    margin: 0 0 0 40%;
+    margin: 0 0 0 35%;
   }
   #links{
     margin-left: 18%;
