@@ -8,12 +8,27 @@ body {
 .nav-item {
   font-weight: bolder;
   margin-right: 40px;
+  font-family: Courier, monospace;
+  font-style: italic;
+  font-size: 18px;
 }
 
 .nav-item a {
   color: black;
 }
-
+.my-name{
+  font-size: 30px;
+  font-style: italic;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: "Lucida Handwriting", cursive;
+  font-weight: bolder;
+  margin-top: 1.5%;
+}
+#text-head{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Courier, monospace;
+}
 #biography {
   margin-top: 30px;
   max-width: 1540px;
