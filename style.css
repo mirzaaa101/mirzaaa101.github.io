@@ -1,7 +1,7 @@
 body {
   overflow-x: hidden;
+  font-family: "Roboto Regular", sans-serif;
 }
-
 .navbar{
   margin-top: 15px;
 }
@@ -17,24 +17,23 @@ body {
   color: black;
 }
 .my-name{
-  font-size: 30px;
+  font-size: 25px;
   font-style: italic;
-  /* font-family: 'Times New Roman', Times, serif; */
-  font-family: "Lucida Handwriting", cursive;
+  font-family: Courier, monospace;
   font-weight: bolder;
   margin-top: 1.5%;
 }
 #text-head{
   font-size: 25px;
   font-weight: bold;
-  font-family: Courier, monospace;
+  font-family: "Roboto Regular", sans-serif;
 }
 #biography {
   margin-top: 30px;
   max-width: 1540px;
   max-height: auto;
   border: none;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Roboto Regular", sans-serif;
 }
 
 #profile {
@@ -44,30 +43,32 @@ body {
 }
 
 #interests-card {
-  margin: 10px 10px 10px 10px;
-  font-style: italic;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-family: 'Times New Roman', Times, serif;
+  margin: 0px 0px 0px 0px;
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 7px;
 }
 #card-header{
   font-weight: bold;
+  font-family: "Roboto Regular", sans-serif;
 }
 .interests {
   max-width: 18rem;
   height: 10rem;
   float: left;
-  margin: 0 20px 10px 10px;
-  font-size: 15px;
-  /* color: white;
-  background-color: #198754; */
+  margin: 0 10px 5px 5px;
+  font-size: 14px;
   color: black;
-  background-color: #cee2df;
+  background-color: #d3e5f1;
 }
 .card-academic{
+  font-family: "Roboto Regular", sans-serif;
   border: none;
+  font-size: 18px;
 }
 .card-project{
   border: none;
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 16px;
 }
 .card-body {
   border: none;
@@ -88,7 +89,8 @@ body {
   height: 60px;
   width: 600px;
   margin: 0 0 0 40%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: Courier, monospace; */
+  font-family: "Roboto Regular", sans-serif;
   font-style: italic;
 }
 
@@ -118,7 +120,13 @@ hr{
   cursor: pointer;
 }
 
-
+.copyright-text {
+  font-style: italic;
+  font-weight: lighter;
+  font-family: Courier, monospace;
+  font-size: 17px;
+  color: #666;
+}
 
 @media (max-width: 576px) {
   body {
